@@ -16,7 +16,7 @@ const client = new Client({
 });
 
 // --- ضع بيانات البوت هنا ---
-const TOKEN = 'MTQ2MjEyODA0ODAzMDYxMzUzNQ.GlL0EV.i3Y_A2tE4cZr2_dUWCC7FDpSptmQKnLTD9J06Y';
+const TOKEN = process.env.TOKEN;
 const VOICE_ID = '1461511107348004898'; // ايدي الروم الصوتي
 
 async function connectToVoice(channel) {
